@@ -22,8 +22,10 @@ Projecting galaxy images onto the space spanned by the eigengalaxies we get a lo
 
 We find that 99% of the images in our simple PCA morphology model have a reconstuction error less than 9%, as seen in the folowing Figure:
 
-![Eigengalaxies 2D]("results/plots/reconstruction error histogram.png")
+![rec error](results/plots/reconstruction_error_histogram.png)
+
 ### PCA in three dimension
+
 I have further calculated PCA on three dimensional data to get the 3D eigengalaxies, which can be viewed interactively on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
 
 Example of Eigengalaxy 10:
@@ -33,6 +35,9 @@ Example of Eigengalaxy 10:
 ### UMAP Projection
 Calculating UMAP projection on the PCA scores to see if clusters of different galaxy types arise.
 
+The resulting Figure can also viewed on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis), where hovering over a point will show the galaxy image.
+
+![Umap](results/plots/umap_plot.png)
 ## Generative Advesarial Neural Network
 Traininieren des [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) 
 
