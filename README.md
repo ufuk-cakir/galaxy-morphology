@@ -1,6 +1,6 @@
 # Machine Learning Models For Galaxy Morphology
 
-This is the GitHub repository for my bachelor thesis in physics at the Heidelberg University.
+This is the GitHub repository for my bachelor thesis in physics at the Heidelberg University. Interactive visualizations and animations can be found on my personal [Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
 
 # Introduction
 State-of-the-art hydrodynamical simulations can reproduce the diversity of different galaxy morphological types, but fail to exactly recreate real, observed galaxies.
