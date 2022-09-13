@@ -11,8 +11,8 @@ The goal of my thesis is to investigate how ML can be used to create galaxy morp
 The main part is to investigate of how principal component analysis(PCA) can serve as a galaxy morphology model. The so called "Eigengalaxies" calculated from PCA are galaxy images which act as the basis vectors of the image space such that each galaxy in the dataset can be described through a linear combination of all eigengalaxies.
 
 Reconstruction of a Galaxy:
-![screen-gif](./animations/6028.gif)
 ![screen-gif](./animations/5237.gif)
+### PCA in three dimension
 
 
 ## Generative Advesarial Neural Network
