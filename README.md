@@ -39,7 +39,7 @@ The resulting Figure can also viewed on my [Webpage](https://www.cakir-ufuk.de/b
 
 ![Umap](results/plots/umap_plot.png)
 ## Generative Advesarial Neural Network
-Traininieren des [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) 
+The [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) from NVIDA was trained on the smoothed galaxy images. The pretrained network can be found [here](https://ufuk-bachelor-thesis.s3.eu-west-2.amazonaws.com/trained-galaxy-gan.pkl) 
 
 
 
