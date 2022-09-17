@@ -9,6 +9,11 @@ The goal of my thesis is to investigate how ML can be used to create galaxy morp
 
 I used IllustrisTNG simulated galaxies to build a galaxy morphology model.
 
+
+## Pipeline Flowchart
+A interactive flowchart build with plotly dash can be found on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
+
+
 ## Principal Component Analysis
 The main part is to investigate of how principal component analysis(PCA) can serve as a galaxy morphology model. The so called "Eigengalaxies" calculated from PCA are galaxy images which act as the basis vectors of the image space such that each galaxy in the dataset can be described through a linear combination of all eigengalaxies.
 
