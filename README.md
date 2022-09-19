@@ -9,6 +9,11 @@ The goal of my thesis is to investigate how ML can be used to create galaxy morp
 
 I used IllustrisTNG simulated galaxies to build a galaxy morphology model.
 
+
+## Pipeline Flowchart
+A interactive flowchart build with plotly dash can be found on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
+
+
 ## Principal Component Analysis
 The main part is to investigate of how principal component analysis(PCA) can serve as a galaxy morphology model. The so called "Eigengalaxies" calculated from PCA are galaxy images which act as the basis vectors of the image space such that each galaxy in the dataset can be described through a linear combination of all eigengalaxies.
 
@@ -22,8 +27,10 @@ Projecting galaxy images onto the space spanned by the eigengalaxies we get a lo
 
 We find that 99% of the images in our simple PCA morphology model have a reconstuction error less than 9%, as seen in the folowing Figure:
 
-![Eigengalaxies 2D]("results/plots/reconstruction error histogram.png")
+![rec error](results/plots/reconstruction_error_histogram.png)
+
 ### PCA in three dimension
+
 I have further calculated PCA on three dimensional data to get the 3D eigengalaxies, which can be viewed interactively on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
 
 Example of Eigengalaxy 10:
@@ -33,8 +40,11 @@ Example of Eigengalaxy 10:
 ### UMAP Projection
 Calculating UMAP projection on the PCA scores to see if clusters of different galaxy types arise.
 
+The resulting Figure can also viewed on my [Webpage](https://www.cakir-ufuk.de/bachelor-thesis), where hovering over a point will show the galaxy image.
+
+![Umap](results/plots/umap_plot.png)
 ## Generative Advesarial Neural Network
-Traininieren des [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) 
+The [StyleGAN2-ada](https://github.com/NVlabs/stylegan2-ada) from NVIDA was trained on the smoothed galaxy images. The pretrained network can be found [here](https://ufuk-bachelor-thesis.s3.eu-west-2.amazonaws.com/trained-galaxy-gan.pkl) 
 
 
 
