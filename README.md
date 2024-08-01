@@ -2,7 +2,7 @@
 
 This is the GitHub repository for my bachelor thesis in physics at the Heidelberg University. Interactive visualizations and animations can be found on my [personal  Webpage](https://www.cakir-ufuk.de/bachelor-thesis)
 
-An updated version of this project can be found at: [MEGS Repository](https://github.com/ufuk-cakir/MEGS) and [GAMMA Repository](https://github.com/ufuk-cakir/GAMMA)!
+> :warning: **An updated version of this project can be found at: [MEGS Repository](https://github.com/ufuk-cakir/MEGS) and [GAMMA Repository](https://github.com/ufuk-cakir/GAMMA)!**
 
 # Introduction
 State-of-the-art hydrodynamical simulations can reproduce the diversity of different galaxy morphological types, but fail to exactly recreate real, observed galaxies.
